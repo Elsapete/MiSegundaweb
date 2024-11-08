@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Fútbol</title>
+  <style>
+    /* Estilos básicos para la página */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #2c3e50;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .image-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .image-gallery img {
+      width: 200px;
+      height: 150px;
+      border-radius: 10px;
+      object-fit: cover;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .image-gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .description {
+      font-size: 1.1em;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>Galería de Imágenes de Fútbol</h1>
+
+  <!-- Galería de Imágenes -->
+  <div class="image-gallery">
+    <img src="img/chelsea.jpg" alt="Imagen de fútbol 1">
+    <img src="img/anfield.jpg" alt="Imagen de fútbol 2">
+    <img src="img/bernabeu.jpg" alt="Imagen de futbol 3">
+  </div>
+    <!-- Agrega más imágenes aquí -->
+
+
+  <!-- Descripción -->
+  <div class="description">
+    <p>Explora las mejores imágenes de fútbol y revive momentos memorables del deporte.</p>
+  </div>
+</div>
+</body>
+</html>
+
